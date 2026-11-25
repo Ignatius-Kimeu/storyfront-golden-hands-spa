@@ -2,7 +2,7 @@
    Vanilla JS. To connect the Sheet, paste its ID into SHEET_ID (the sheet must be "Anyone with the link: Viewer"). */
 (function () {
   'use strict';
-  var SHEET_ID = '';                       // e.g. '1AbC...xyz'  (empty = use data/content.json only)
+  var SHEET_ID = '1VKutLybRdj-SJEogbvXY4riXJvuWGgG1bU74TXrxK6M';   // empty = use data/content.json only
   var TABS = { prices: 'Prices', offers: 'Offers', settings: 'Settings' };
   var CACHE = 'gh_content_v1';
   var PREVIEW = /[?&]preview\b/.test(location.search);
