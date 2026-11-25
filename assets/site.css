@@ -488,4 +488,14 @@ body.has-bar .mnav{inset:calc(var(--header-h) + var(--bar-h,40px)) 0 0}
 .of-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.4rem}
 .of-cards.one .of--card{flex-direction:row}.of-cards.one .of-img{flex:0 0 46%}.of-cards.one .of-img img{height:100%;aspect-ratio:auto;min-height:280px}
 .of-cards.one .of-body{padding:2rem}
-@media (max-width:760px){.of-cards.one .of--card{flex-direction:column}.of-cards.one .of-img img{min-height:0;aspect-ratio:16/10}}
+@media (max-width:760px){.of-cards.one .of--card{flex-direction:column}.of-cards.one .of-img img{min-height:0;aspect-ratio:16/10}}/* splash: centre the mark over the wordmark */
+#splash>div{display:flex;flex-direction:column;align-items:center}
+/* mobile menu: always a full, solid panel; header solid and visible while it is open */
+.mnav{inset:0!important;padding-top:calc(var(--header-h) + var(--bar-h,0px) + 1.5rem)}
+body.menu-open .hdr{transform:none!important;background:var(--petrol)!important;border-color:transparent!important}
+body.menu-open .hdr .brand-name,body.menu-open .hdr .nav a{color:#fff!important}
+body.menu-open .hdr .burger span{background:#fff!important}
+.of-banner em{font-style:normal}
+@media (max-width:760px){.of-banner .wrap{flex-wrap:nowrap;justify-content:space-between;gap:.6rem;padding:.45rem 0;text-align:left}
+.of-banner .wrap>span{flex-basis:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.of-banner .of-bt,.of-banner .btn--ghostlite{display:none}.of-banner .btn{flex:none}}

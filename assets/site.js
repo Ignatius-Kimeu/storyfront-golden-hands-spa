@@ -56,12 +56,14 @@
       var open = burger.getAttribute('aria-expanded') === 'true';
       burger.setAttribute('aria-expanded', String(!open));
       mnav.classList.toggle('open', !open);
+      document.body.classList.toggle('menu-open', !open);
       document.body.style.overflow = !open ? 'hidden' : '';
     });
     $$('a', mnav).forEach(function (a) {
       a.addEventListener('click', function () {
         burger.setAttribute('aria-expanded', 'false');
         mnav.classList.remove('open');
+        document.body.classList.remove('menu-open');
         document.body.style.overflow = '';
       });
     });

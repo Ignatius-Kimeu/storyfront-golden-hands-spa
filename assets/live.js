@@ -134,7 +134,7 @@
     var banners = L.filter(function (o) { return o.style === 'banner' && o.show !== 'popup'; });
     if (banners.length) {
       var b = banners[0], el = document.createElement('div'); el.className = 'of-banner';
-      el.innerHTML = '<div class="wrap"><span>' + (onNow(b) && b.from ? '<b class="of-now">On now</b> ' : '') + '<b>' + esc(b.title) + '</b> ' + esc(b.text) + '</span>' + buttons(b, s, 'btn--mini') + '</div>';
+      el.innerHTML = '<div class="wrap"><span>' + (onNow(b) && b.from ? '<b class="of-now">On now</b> ' : '') + '<b>' + esc(b.title) + '</b> <em class="of-bt">' + esc(b.text) + '</em></span>' + buttons(b, s, 'btn--mini') + '</div>';
       document.body.prepend(el); document.body.classList.add('has-bar');
       var fit = function () { document.documentElement.style.setProperty('--bar-h', el.offsetHeight + 'px'); };
       fit(); window.addEventListener('resize', fit);
