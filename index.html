@@ -199,8 +199,16 @@
     </div>
   </section>
 
-  <!-- ============ HAPPY HOUR ============ -->
-  <section class="cta sec--tight">
+  <!-- ============ OFFERS (from the Google Sheet) ============ -->
+  <section class="sec" id="offers" hidden>
+    <div class="wrap">
+      <div class="center rv in" style="margin-bottom:2rem"><p class="eyebrow center" style="justify-content:center">This month</p><h2>Offers at Golden Hands</h2></div>
+      <div class="of-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ HAPPY HOUR (shown when no offer is live) ============ -->
+  <section class="cta sec--tight" id="happyhour">
     <img src="images/couples-suite-kilimani.jpg" alt="" loading="lazy" aria-hidden="true">
     <div class="wrap grid g-2" style="align-items:center;gap:2rem">
       <div class="rv">
@@ -386,5 +394,6 @@
 </a>
 
 <script src="assets/site.js"></script>
+<script src="assets/live.js"></script>
 </body>
 </html>

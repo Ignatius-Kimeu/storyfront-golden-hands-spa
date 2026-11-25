@@ -1,0 +1,48 @@
+{
+  "updated": "2026-11-26",
+  "settings": {
+    "no_offer": "happyhour",
+    "wa_kilimani": "254719369088",
+    "wa_kiambu": "254791871433",
+    "currency": "KES"
+  },
+  "prices": [
+    {"category": "Massage", "service": "Swedish Massage", "duration": "1 hr", "kilimani": 4000, "kiambu": null, "note": "Gentle, full-body relaxation"},
+    {"category": "Massage", "service": "Deep Tissue Massage", "duration": "1 hr", "kilimani": 5000, "kiambu": null, "note": "Firm pressure for chronic tension"},
+    {"category": "Massage", "service": "Aromatherapy Massage", "duration": "1 hr", "kilimani": 5000, "kiambu": null, "note": "Concentrated plant oils"},
+    {"category": "Massage", "service": "Hot Stone Massage", "duration": "90 mins", "kilimani": 7000, "kiambu": null, "note": "Heated stones, deep relaxation"},
+    {"category": "Massage", "service": "Prenatal Massage", "duration": "90 mins", "kilimani": 6000, "kiambu": null, "note": "For expecting mothers"},
+    {"category": "Massage", "service": "Back Massage", "duration": "40 mins", "kilimani": 3000, "kiambu": null, "note": ""},
+    {"category": "Massage", "service": "Four Hands Massage", "duration": "1 hr", "kilimani": null, "kiambu": null, "note": "Two therapists"},
+    {"category": "Massage", "service": "Reflexology", "duration": "40 mins", "kilimani": 3000, "kiambu": null, "note": "Feet and pressure points"},
+    {"category": "Body & face", "service": "Salt Scrub", "duration": "40 mins", "kilimani": 3000, "kiambu": null, "note": ""},
+    {"category": "Body & face", "service": "Coffee Scrub", "duration": "40 mins", "kilimani": 3500, "kiambu": null, "note": ""},
+    {"category": "Body & face", "service": "Facial", "duration": "40 mins", "kilimani": 3000, "kiambu": null, "note": "Cleanse, mask, massage"},
+    {"category": "Body & face", "service": "Sauna", "duration": "30 mins", "kilimani": 2000, "kiambu": null, "note": "Free with any massage"},
+    {"category": "Nails", "service": "Pedicure", "duration": "", "kilimani": 2000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Manicure", "duration": "", "kilimani": 1000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Gel Application", "duration": "", "kilimani": 1000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Tips", "duration": "", "kilimani": 1500, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Stick-ons", "duration": "", "kilimani": 1000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Builder Gel Overlay", "duration": "", "kilimani": 1500, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Gum Gel", "duration": "", "kilimani": 2500, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Acrylic Overlay", "duration": "", "kilimani": 2500, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Acrylic Ombré", "duration": "", "kilimani": 3000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Acrylic Powder", "duration": "", "kilimani": 3000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Sculpted Nails", "duration": "", "kilimani": 3000, "kiambu": null, "note": ""},
+    {"category": "Nails", "service": "Sculpted Ombré", "duration": "", "kilimani": 3500, "kiambu": null, "note": ""},
+    {"category": "Waxing", "service": "Underarms", "duration": "", "kilimani": 700, "kiambu": null, "note": ""},
+    {"category": "Waxing", "service": "Leg Waxing", "duration": "", "kilimani": 1500, "kiambu": null, "note": ""},
+    {"category": "Waxing", "service": "Bikini", "duration": "", "kilimani": 2000, "kiambu": null, "note": ""},
+    {"category": "Waxing", "service": "Brazilian", "duration": "", "kilimani": 2500, "kiambu": null, "note": ""},
+    {"category": "Waxing", "service": "Manzilian", "duration": "", "kilimani": 2500, "kiambu": null, "note": "For men"},
+    {"category": "Waxing", "service": "Vajacial", "duration": "", "kilimani": 1000, "kiambu": null, "note": ""},
+    {"category": "Waxing", "service": "Brazilian + Vajacial", "duration": "", "kilimani": 3000, "kiambu": null, "note": ""}
+  ],
+  "offers": [
+    {"status": "Live", "order": 1, "style": "spotlight", "title": "Weekday happy hour", "text": "The quiet slot in the middle of the day, for people who can slip out of the office. Every massage still comes with a free sauna.", "price": "", "was": "", "image": "couples-suite-kilimani.jpg", "branch": "Both", "start": "2026-11-01", "end": "2026-12-31", "days": "Mon-Fri", "from": "14:00", "to": "16:00", "show": "page", "popup": "", "button": "Grab a happy hour slot"},
+    {"status": "Live", "order": 2, "style": "card", "title": "Hot stone, 90 minutes", "text": "Heated basalt stones and long strokes that melt deep tension. Sauna included.", "price": "7000", "was": "", "image": "hot-stone-massage.jpg", "branch": "Both", "start": "2026-11-01", "end": "2026-12-31", "days": "Every day", "from": "", "to": "", "show": "both", "popup": "visit", "button": "Book hot stone"},
+    {"status": "Live", "order": 3, "style": "banner", "title": "Free sauna with every massage", "text": "At both branches, every day.", "price": "", "was": "", "image": "", "branch": "Both", "start": "2026-11-01", "end": "2026-12-31", "days": "Every day", "from": "", "to": "", "show": "page", "popup": "", "button": "Book a massage"},
+    {"status": "Draft", "order": 4, "style": "card", "title": "December couples night", "text": "Example of a draft: only visible on the preview link until you set it to Live.", "price": "", "was": "", "image": "couples-suite-kilimani.jpg", "branch": "Kilimani", "start": "2026-12-01", "end": "2026-12-24", "days": "Fri-Sun", "from": "17:00", "to": "21:00", "show": "page", "popup": "", "button": "Ask about couples night"}
+  ]
+}
